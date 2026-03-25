@@ -1,4 +1,4 @@
-package reflexjdbc.dbcomponent.config;
+package reflexjdbc.core;
 
 //driver JDBC para acceder y manipular la BDD
 import java.sql.*;

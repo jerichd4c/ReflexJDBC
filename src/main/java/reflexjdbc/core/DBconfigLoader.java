@@ -1,4 +1,4 @@
-package reflexjdbc.dbcomponent.config;
+package reflexjdbc.core;
 
 import java.io.*;
 import java.util.*;

@@ -1,8 +1,6 @@
-package reflexjdbc;
+package reflexjdbc.demo;
  
-import reflexjdbc.dbcomponent.config.*;
-import reflexjdbc.dbcomponent.implementation.*;
-import reflexjdbc.dbcomponent.util.*;
+import reflexjdbc.core.*;
 import java.sql.*;
 
 /**

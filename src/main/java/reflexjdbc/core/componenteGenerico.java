@@ -1,7 +1,6 @@
-package reflexjdbc.dbcomponent.implementation;
+package reflexjdbc.core;
 
-import reflexjdbc.dbcomponent.config.*;
-import reflexjdbc.dbcomponent.pool.*;
+
 import java.sql.*;
 
 //implementacion de las firmas del DBcomponent

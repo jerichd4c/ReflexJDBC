@@ -80,12 +80,11 @@ To get a local copy up and running, follow these steps.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-You can find a complete demonstration of the component's capabilities in `src/main/java/common/proyectogenerico/appDemo.java`.
+You can find a complete demonstration of the component's capabilities in `src/main/java/reflexjdbc/demo/appDemo.java`.
 
 Key operations include:
 ```java
-import reflexjdbc.dbcomponent.config.*;
-import reflexjdbc.dbcomponent.implementation.*;
+import reflexjdbc.core.*;
 
 // Loading configuration
 DBconfig config = DBconfigLoader.cargarConfig("/primarydbconfig.properties", DBtype.GENERICA);
