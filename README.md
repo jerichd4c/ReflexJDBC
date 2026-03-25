@@ -4,6 +4,10 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
+  <a href="https://github.com/jerichd4c/Proyecto_DBcomponent">
+    <img src="java_logo.svg" alt="Logo" width="80" height="80">
+  </a>
+
   <h3 align="center">ReflexJDBC</h3>
 
   <p align="center">
@@ -80,13 +84,15 @@ You can find a complete demonstration of the component's capabilities in `src/ma
 
 Key operations include:
 ```java
+import reflexjdbc.dbcomponent.config.*;
+import reflexjdbc.dbcomponent.implementation.*;
+
 // Loading configuration
 DBconfig config = DBconfigLoader.cargarConfig("/primarydbconfig.properties", DBtype.GENERICA);
 
 // Initializing the component
 componenteGenerico db = new componenteGenerico(config);
 db.inicializar();
-
 // Executing updates
 db.ejecutarUpdate("INSERT INTO users (name) VALUES (?)", "John Doe");
 

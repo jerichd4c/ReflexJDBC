@@ -1,4 +1,4 @@
-package common.proyectogenerico.dbcomponent.config;
+package reflexjdbc.dbcomponent.config;
 
 //driver JDBC para acceder y manipular la BDD
 import java.sql.*;

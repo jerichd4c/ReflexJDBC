@@ -1,7 +1,7 @@
-package common.proyectogenerico.dbcomponent.implementation;
+package reflexjdbc.dbcomponent.implementation;
 
-import common.proyectogenerico.dbcomponent.config.*;
-import common.proyectogenerico.dbcomponent.pool.*;
+import reflexjdbc.dbcomponent.config.*;
+import reflexjdbc.dbcomponent.pool.*;
 import java.sql.*;
 
 //implementacion de las firmas del DBcomponent

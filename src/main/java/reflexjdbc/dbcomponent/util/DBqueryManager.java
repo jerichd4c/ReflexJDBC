@@ -1,4 +1,4 @@
-package common.proyectogenerico.dbcomponent.util;
+package reflexjdbc.dbcomponent.util;
 
 import java.io.*;
 import java.util.*;

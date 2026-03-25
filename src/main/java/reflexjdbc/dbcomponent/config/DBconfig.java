@@ -1,4 +1,4 @@
-package common.proyectogenerico.dbcomponent.config;
+package reflexjdbc.dbcomponent.config;
 
 import java.util.*;
 

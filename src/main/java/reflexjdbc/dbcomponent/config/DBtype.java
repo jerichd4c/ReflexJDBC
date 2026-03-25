@@ -1,4 +1,4 @@
-package common.proyectogenerico.dbcomponent.config;
+package reflexjdbc.dbcomponent.config;
 
 //clase que define/enumera las distintas tipos de BDD relacionales, no tiene otra funcionalidad
 public enum DBtype {

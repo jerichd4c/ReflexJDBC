@@ -1,6 +1,6 @@
-package common.proyectogenerico.dbcomponent.pool;
+package reflexjdbc.dbcomponent.pool;
 
-import common.proyectogenerico.dbcomponent.config.*;
+import reflexjdbc.dbcomponent.config.*;
 import java.sql.*;
 import java.util.*;
 
