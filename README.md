@@ -71,8 +71,9 @@ To get a local copy up and running, follow these steps.
    ```sh
    git clone https://github.com/jerichd4c/Proyecto_DBcomponent.git
    ```
-2. Download the [PostgreSQL JDBC Driver](https://jdbc.postgresql.org/download/) and add it to your project's classpath.
-3. Configure your database settings in `src/main/resources/*.properties`.
+2. Download the [PostgreSQL JDBC Driver](https://jdbc.postgresql.org/download/).
+3. Place the `.jar` file in your project root and add it to your project's classpath in your IDE (e.g., *Referenced Libraries* in VS Code or *Project Structure* in IntelliJ).
+4. Configure your database settings in `src/main/resources/*.properties`.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -135,3 +136,9 @@ Distributed under the MIT License.
 [Java-url]: https://www.java.com/
 [PostgreSQL-shield]: https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white
 [PostgreSQL-url]: https://www.postgresql.org/
+
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
+* [PostgreSQL JDBC Driver](https://jdbc.postgresql.org/download/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
